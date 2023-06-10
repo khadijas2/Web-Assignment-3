@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: thistle;
+}
+.carousel-inner{
+    margin-top: -50px;
+    padding-top: 60px;
+    margin-bottom: -300px;
+    padding-left: -50px;
+    padding-right: -30px;
+    padding-bottom: -700px;
+}
+.mainbox1{ 
+    background-color: rgb(123, 163, 238,0.4);
+    margin-top: 370px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 500px;
+   padding-bottom: 100px;
+}
+.cont{
+    text-align: center;
+}
+.inner-cont{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;  
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.vid1{
+    margin-top: 100px;
+    margin-left: 750px;
+    height: 300px;
+    width: 500px;
+}
+.img-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -920px;
+    margin-right: 600px;
+    margin-left: 150px;
+    gap: 1em;
+}
+.mainbox2{ 
+    background-color: rgb(123, 163, 238,0.4);
+    margin-top: 170px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 200px;
+   padding-bottom: 700px;
+}
+.cont1{
+    text-align: center;
+}
+.inner-cont1{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;  
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -30px;
+    padding-bottom: 0px;
+}
+.vid2{
+    margin-top: -1120px;
+    margin-bottom: 400px;
+    margin-left: 880px;
+    width: 500px;
+}
+.img-cont1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 230px;
+    margin-left: 150px;
+    margin-right: 700px;
+    margin-top: -750px;
+    gap: 1em;
+}
+.img21{
+    height: 230px;
+}
+.img22{
+    height: 230px;
+    width: 300px;
+}
+.img23{
+    height: 230px;
+}
+.img24{
+    height: 230px;
+}
+.mainbox3{ 
+    background-color: rgb(123, 163, 238,0.4);
+    margin-top: 370px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: -300px;
+   padding-bottom: 100px;
+}
+.cont2{
+    text-align: center;
+}
+.inner-cont2{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;  
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.gif1{
+    display: flex;
+    gap:2em;
+    height: 200px;
+    margin-left: 50px;
+
+}
+.mainbox4{ 
+    background-color: rgb(123, 163, 238,0.4);
+    margin-top: 370px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+   padding-bottom: 300px;
+}
+.cont3{
+    text-align: center;
+}
+.inner-cont3{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;  
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.gif2{
+    display: flex;
+    gap:2em;
+    height: 200px;
+    margin-left: 50px;
+
+}
+footer {
+    margin-top: 100px;
+    background-color:rgb(238, 143, 143,0.4);
+    color: black;
+    padding: 50px 0;
+    font-size: 16px;
+}
+  
+.container {
+   
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.col-md-4 {
+    width: 33.33%;
+    padding: 0 20px;
+}
+  
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .img-cont {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .img-cont1 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .img22 {
+        width: 100%;
+    }
+
+    .img-cont1 .img21,
+    .img-cont1 .img23,
+    .img-cont1 .img24 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainbox1,
+    .mainbox2,
+    .mainbox3,
+    .mainbox4 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .vid1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .vid2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .img-cont,
+    .img-cont1 {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img21,
+    .img22,
+    .img23,
+    .img24 {
+        width: 100%;
+    }
+
+    .gif1,
+    .gif2 {
+        margin-left: 0;
+    }
+}
